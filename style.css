@@ -1,0 +1,116 @@
+body
+{
+    background-color: #fcfefe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 5px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.container .left-side
+{
+    position: relative;
+    background-color: #66bfbf;
+    padding: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.profileText .imgbx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileText .imgbx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.profileText h1
+{
+    color: #080808;
+    text-decoration: underline;
+}
+
+.profileText h2
+{
+    color: #080808;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.profileText ul
+{
+    color: #060606;
+    text-align: justify;
+    text-decoration: none;
+}
+
+/* footer
+{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+} */
+
+
+.container .right-side
+{
+    position: relative;
+    background-color: #eaf6f6;
+    padding: 30px;
+}
+
+.experience
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    
+}
+
+.experience h2
+{
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.job
+{
+    font-weight: bold;
+}
